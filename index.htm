@@ -15,7 +15,6 @@ body{
   padding: 20px;
   text-align: center;
 }
-  /* NAV BAR - DIBIKIN 4 KOTAK 1 BARIS */
 .menu{
   background-color: #E76F51;
   display: flex;
@@ -29,7 +28,7 @@ body{
   font-weight: bold;
   font-size: 13px;
   border-right: 1px solid #FFF5F0;
-  #FFF5F0-space: nowrap;
+  white-space: nowrap;
 }
 .menu a:last-child{
   border-right: none;
@@ -41,24 +40,34 @@ body{
   text-align: center;
   margin: 20px;
 }
+.judul img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px 0;
+}
 .kotak{
   background: #FFF5F0;
-  width: 80%;
+  width: 92%;
   margin: 15px auto;
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
 }
 .kotak img{
   width: 100%;
-  height: 200px;
+  height: 380px;
   object-fit: cover;
-  }
-  h2{
+  border-radius: 12px;
+  display: block;
+}
+h2{
   color: #FF9A76;
 }
 .info{
   background: #E76F51;
-  width: 80%;
+  color: white;
+  width: 92%;
   margin: 15px auto;
   padding: 15px;
   border-radius: 10px;
@@ -79,7 +88,6 @@ body{
   <p>Nasional & Internasional | Jalan-Jalan Yuk!</p>
 </div>
 
-<!-- BAR MENU JADI 4, TETAP 1 BARIS -->
 <div class="menu">
   <a href="#beranda">Beranda</a>
   <a href="#nasional">Nasional</a>
@@ -87,12 +95,10 @@ body{
   <a href="#informasi">Kontak</a>
 </div>
 
-<!-- BERANDA - VERSI PANJANG -->
 <div class="judul" id="beranda">
   <h2>Selamat Datang di Katalog Kami!</h2>
   <p>Disini ada wisata dari Indonesia sama dari luar negeri. Tinggal pilih mau liburan kemana.</p>
-   <!-- FOTO GEDE BERANDA -->
-  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000" style="width:100%; border-radius:10px; margin:10px 0;">
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000">
   <p><i>Foto di atas: Pantai dengan air jernih, salah satu contoh wisata yang ada di katalog kami.</i></p>
   <p>Kami bikin katalog ini buat bantu kalian yang bingung mau liburan kemana. Ada yang suka pantai, ada yang suka gunung, ada yang suka sejarah, semuanya ada disini. Harganya juga udah kami tulis, jadi bisa nabung dulu sebelum berangkat.</p>
   <hr>
@@ -102,11 +108,8 @@ body{
     3. Banyak Pilihan - Ada 3 wisata nasional + 3 wisata internasional.<br>
     4. Cocok Buat Pemula - Ada info visa, mata uang, sama tips hemat.</p>
   <hr>
-
-  <!-- FOTO KEDUA BIAR GA BOSEN -->
-  <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1000" style="width:100%; border-radius:10px; margin:10px 0;">
+  <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1000">
   <p><i>Liburan itu ga harus mahal, yang penting seru bareng temen / keluarga.</i></p>
-  
   <h3>Liburan Kita Sejauh Ini</h3>
   <p><b>500+</b> Orang Udah Liburan Bareng Kami<br>
   <b>6</b> Destinasi Wisata<br>
@@ -132,7 +135,7 @@ body{
 <h2 style="text-align:center;" id="nasional">🇮🇩 WISATA NASIONAL</h2>
 
 <div class="kotak">
-  <img src="pantaikuta.jpg" style="width:100%; height:300px; object-fit:cover; display:block; border-radius:12px;">
+  <img src="pantaikuta.jpg">
   <h3>1. Pantai Kuta - Bali</h3>
   <p>Pantai yang paling terkenal di Bali. Pas sore sunsetnya bagus banget, banyak bule main surfing juga.</p>
   <p><b>Lokasi :</b> Badung, Bali</p>
@@ -140,9 +143,8 @@ body{
   <p><b>Jam Buka :</b> 24 Jam</p>
 </div>
 
-<!-- FOTO BROMO UDAH DIGANTI YANG ASLI -->
 <div class="kotak">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnJnKeFqW4SZdEPQRaMSBdHCJn3J5rqcDqhP6xSLhWIPvxVhnF4hHZm8ZO2I5OG6RlUURPgmog0VY_oF8BSumxv8JB6WijUx7WcACbROfV01oqM6w0_JLOyQXVQt35-5wWZ7Kq5ysrx9E/s16000/mt+bromo+tourguide.jpg" style="width:100%; height:300px; object-fit:cover; display:block; border-radius:12px;">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnJnKeFqW4SZdEPQRaMSBdHCJn3J5rqcDqhP6xSLhWIPvxVhnF4hHZm8ZO2I5OG6RlUURPgmog0VY_oF8BSumxv8JB6WijUx7WcACbROfV01oqM6w0_JLOyQXVQt35-5wWZ7Kq5ysrx9E/s16000/mt+bromo+tourguide.jpg">
   <h3>2. Gunung Bromo - Jawa Timur</h3>
   <p>Gunung yang terkenal sama sunrise-nya. Ada kawah yang masih ngebul, sama lautan pasir yang luas banget. Naik jeep dulu, terus liat matahari terbit dari atas bukit.</p>
   <p><b>Lokasi :</b> Probolinggo, Jawa Timur</p>
@@ -150,9 +152,8 @@ body{
   <p><b>Jam Buka :</b> 00.00 - 12.00</p>
 </div>
 
-<!-- FOTO RAJA AMPAT UDAH DIGANTI VIEW DARI ATAS -->
 <div class="kotak">
-  <img src="https://cdn.generationvoyage.fr/2023/05/visiter-raja-ampat-indonesie.jpg"style="width:100%; height:300px; object-fit:cover; display:block; border-radius:12px;">
+  <img src="https://cdn.generationvoyage.fr/2023/05/visiter-raja-ampat-indonesie.jpg">
   <h3>3. Raja Ampat - Papua</h3>
   <p>Kalau dilihat dari atas, pulau-pulaunya kecil-kecil warna hijau, airnya warna tosca. Tempat diving terbaik di dunia, ikannya banyak dan warna-warni.</p>
   <p><b>Lokasi :</b> Papua Barat</p>
@@ -163,7 +164,7 @@ body{
 <h2 style="text-align:center;" id="internasional">🌍 WISATA INTERNASIONAL</h2>
 
 <div class="kotak">
-  <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800" style="width:100%; height:300px; object-fit:cover; display:block; border-radius:12px;">
+  <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800">
   <h3>1. Menara Eiffel - Paris, Prancis</h3>
   <p>Menara yang paling terkenal di dunia. Kalau malam lampunya nyala, romantis banget.</p>
   <p><b>Lokasi :</b> Paris, Prancis</p>
@@ -173,7 +174,7 @@ body{
 </div>
 
 <div class="kotak">
-  <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800" style="width:100%; height:300px; object-fit:cover; display:block; border-radius:12px;">
+  <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800">
   <h3>2. Tokyo - Jepang</h3>
   <p>Kota yang maju banget, ada Gunung Fuji juga. Kalau bulan Maret ada bunga sakura.</p>
   <p><b>Lokasi :</b> Tokyo, Jepang</p>
@@ -183,7 +184,7 @@ body{
 </div>
 
 <div class="kotak">
-  <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800" style="width:100%; height:300px; object-fit:cover; display:block; border-radius:12px;">
+  <img src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800">
   <h3>3. Marina Bay Sands - Singapura</h3>
   <p>Gedung yang ada kolam renangnya di atas. Paling dekat dari Indonesia, naik pesawat cuma 2 jam.</p>
   <p><b>Lokasi :</b> Singapura</p>
@@ -227,4 +228,4 @@ body{
 </div>
 
 </body>
-</html>
+  </html>
